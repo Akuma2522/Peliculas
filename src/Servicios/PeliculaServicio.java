@@ -75,5 +75,16 @@ public class PeliculaServicio {
         {  System.out.println(p);}
     }
 
+    public void EliminarPelicula(String titulo)
+    {
+        for (Pelicula p:peliculas)
+        {
+            if (p.getTitulo().equalsIgnoreCase(titulo))
+            {peliculas.remove(p);}
+        }
+
+    }
+
+
 
 }

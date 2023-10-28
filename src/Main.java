@@ -6,6 +6,7 @@ import java.util.ArrayList;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
+
         PeliculaServicio peliculaServicio = new PeliculaServicio();
         peliculaServicio.AgregarPelicula();
         peliculaServicio.MostrarPeliculas();
@@ -19,7 +20,7 @@ public class Main {
         peliculaServicio.OrdenarPorTitulo();
         System.out.println("Mostrando peliculas en orden por nombre de director ascendente\n");
         peliculaServicio.OrdenarPorDirector();
-       // peliculaServicio.EliminarPelicula("");
-        //peliculaServicio.MostrarPelicula();
+     /* peliculaServicio.EliminarPelicula("Chucky");
+        peliculaServicio.MostrarPeliculas();*/
+        }
     }
-}
